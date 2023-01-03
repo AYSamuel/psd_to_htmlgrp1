@@ -18,7 +18,8 @@
 .header {
   min-height: 70vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/images/bgk-header.png");
+  background-image: url("/images/bgk-header.png");
+  
 
   background-position: center;
   background-size: cover;
@@ -85,7 +86,7 @@ nav img {
   text-decoration: none;
   color: turquoise;
   border: 1px solid turquoise;
-  padding: 12px 34px;
+  padding: 12px 15px;
   background: transparent;
   position: relative;
   cursor: pointer;
