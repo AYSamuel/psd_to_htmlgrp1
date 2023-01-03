@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -72,9 +72,7 @@ nav img {
   text-align: center;
 }
 
-.text-box h1 {
-  font-size: 40px;
-}
+
 
 .text-box p {
   margin: 10px 0 40px;
@@ -109,7 +107,7 @@ nav .fa{
 
 
 
-hr {
+.header hr {
   width: 3%;
   
   border-bottom: 0.5px solid turquoise;
@@ -141,26 +139,31 @@ padding-top: 70px ;
 
 .text-box h1{
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 600;
+  font-family: 'Playfair Display', serif;
 
 }
 
-.text-box p{
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-weight:lighter;
   font-size: 15px;
-  font-weight: 100;
-  font-family: system-ui;
+  color: white;
   text-align: center;
-
+  font-family: 'Raleway', sans-serif;
+  
 }
-h1{
+.container2 h1{
   text-align: justify;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
 }
 
 
-p{
+.container2 p{
   font-size: 15px;
   font-weight: 100;
   font-family: system-ui;
