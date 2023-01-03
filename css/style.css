@@ -1,0 +1,20 @@
+/* Container 4 */
+.container4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title {
+    font-family: playfair;
+}
+.title hr {
+    width: 2%;
+    border: 0;
+    border-bottom: 1px solid rgb(100, 99, 99);
+}
+
+/* Container 6 */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
