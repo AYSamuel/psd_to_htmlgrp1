@@ -6,7 +6,7 @@
 
 
 .logo-Name{
-  font-size: 35px;
+  font-size: 30px;
   padding: 10px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -33,7 +33,7 @@ nav {
 }
 
 nav img {
-  width: 60px;
+  width: 50px;
 
 }
 
@@ -110,9 +110,9 @@ nav .fa{
 
 
 hr {
-  width: 5%;
+  width: 3%;
   
-  border-bottom: 1px solid turquoise;
+  border-bottom: 0.5px solid turquoise;
   margin-right: auto;
   margin-left: auto;
 }
