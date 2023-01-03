@@ -5,13 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <title>Project</title>
 </head>
 
 <body>
-    <!-- Container 1 -->
+    <section class="header">
+        <nav>
+            <a href="#"><img src="./images/png/logo.png"></a>
+            <a class="logo-Name" href="#">tajam</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EXPERTISE</a></li>
+                    <li><a href="#">TEAMS</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">PEOPLE SAYS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>We Are Awesome Creative Agency</h1><br>
+            <hr />
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quae vel recusandae, ratione illum
+                corrupti inventore, reprehenderit dolores autem dignissimos ab. <br>Qui labore facere a tenetur animi
+                accusantium harum corporis! Minus libero dolore amet unde. Magnam dolorem sunt quos cumque totam
+                cupiditate,<br> ipsam ipsum velit iure placeat molestiae minima nulla ullam, eum corrupti qui quasi eos.
+                Odit repudiandae dicta tempora.</p>
+            <a href="#" class="hero-btn">Learn More</a>
+
+        </div>
+    </section>
     <!-- Container 2 -->
+    <section class="container2">
+        <div class="row">
+            <div class="flexbox-Item img1">
+                <img src="./images/png/logo-big.png" />
+            </div>
+            <div class="flexbox-Item">
+                <h1>Our Story</h1>
+                <br>
+                <span>
+                    <p id="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore dolore magnam quae
+                        deserunt at modi dolorem officiis libero. Distinctio mollitia architecto cupiditate fugiat
+                        expedita ipsum porro ducimus dignissimos animi vitae, quas impedit atque nam eligendi reiciendis
+                        eveniet praesentium facere eius ex accusamus officiis unde inventore. Consequatur nostrum
+                        eveniet asperiores ex!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                        consectetur, totam amet maiores ex cupiditate, provident voluptates, quaerat aliquid dolore
+                        velit atque necessitatibus facere voluptate quia quasi.</p>
+                </span>
+                <br>
+                <a href="#" class="hero-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
     <!-- COntainer 3 -->
     <!-- Container 4 -->
     <section class="container4">
@@ -88,6 +144,20 @@
         </div>
     </section>
     <!-- COntainer 7 -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
 </body>
 
 </html>
