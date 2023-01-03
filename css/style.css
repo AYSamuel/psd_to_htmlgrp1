@@ -106,56 +106,8 @@ nav img {
 nav .fa{
   display: none;
 }
-@media(max-width:700px) {
-  .text-box h1 {
-    font-size: 20px;
-  }
 
-  .nav-links ul li {
 
-    display: block;
-
-  }
-
-  .nav-links {
-    position: absolute;
-    background: tomato;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;;
-
-  }
-
-  .logo-Name{
-    font-size: 35px;
-    padding: 10px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    color: turquoise;
-    text-decoration: none;
-    margin-left: 10px;
-  }
-
-  nav .fa{
-    display: block;
-    color: white;
-    margin: 20px;
-    margin-left: 100px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  nav img {
-    width: 60px;
-  margin-left: 30px;
-  }
-  .nav-links ul{
-    padding: 30px;
-  }
-}
 
 hr {
   width: 5%;
@@ -215,7 +167,57 @@ p{
   text-align: justify;
 }
 
+/*-- for Mobile version --*/
 @media(max-width:700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+
+  .nav-links ul li {
+
+    display: block;
+
+  }
+
+  .nav-links {
+    position: absolute;
+    background: tomato;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;;
+
+  }
+
+  .logo-Name{
+    font-size: 35px;
+    padding: 10px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: turquoise;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  nav .fa{
+    display: block;
+    color: white;
+    margin: 20px;
+    margin-left: 100px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  nav img {
+    width: 60px;
+  margin-left: 30px;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
+
   .row{
     
     flex-direction: column;
