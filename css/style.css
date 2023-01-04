@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0;
-
 }
 
 
@@ -12,7 +11,7 @@
   font-weight: 100;
   color: turquoise;
   text-decoration: none;
-  
+
 }
 
 .header {
@@ -27,19 +26,15 @@
 nav {
   display: flex;
   padding: 1.5% 15% 0 25%;
-  
-  
 }
 
 nav img {
   width: 60px;
-
 }
 
 .nav-links {
   flex: 1;
   text-align: right;
-
 }
 
 .nav-links ul li {
@@ -58,7 +53,6 @@ nav img {
 
 .nav-links ul li a:hover {
   color: turquoise;
-
 }
 
 .text-box {
@@ -90,7 +84,6 @@ nav img {
   background: transparent;
   position: relative;
   cursor: pointer;
-
 }
 
 .hero-btn:hover {
@@ -108,7 +101,7 @@ nav .fa{
 
 
 
-hr {
+.text-box hr {
   width: 5%;
   border-bottom: 1px solid turquoise;
   margin-right: auto;
@@ -116,32 +109,25 @@ hr {
 }
 
 .container2{
-
 width: 55%;
 margin: auto;
-
-
 padding-top: 70px ;
   
 }
 
 .row{
-  
   display: flex;
   justify-content: space-between;
-
 }
 
 .flexbox-Item{
   margin: 30px;
-  
 }
 
 .text-box h1{
   text-align: center;
   font-size: 36px;
   font-weight: 600;
-
 }
 
 .text-box p{
@@ -149,28 +135,59 @@ padding-top: 70px ;
   font-weight: 100;
   font-family: system-ui;
   text-align: center;
-
 }
 
 /* Container 4 */
 .container4 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin: 1rem 20rem;
 }
 .title {
-    font-family: playfair;
+    font-family: 'Playfair Display', serif;
 }
-.title hr {
-    width: 2%;
-    border: 0;
-    border-bottom: 1px solid rgb(100, 99, 99);
+.title p {
+    padding: 1rem 0;
+}
+.cont4hr {
+    width: 5%;
+    border: 1px solid turquoise;
+}
+.flexcon {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.frow {
+    display: flex;
+    align-items: baseline;
+}
+.frow1 {
+   border: 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.097);
+}
+.fitems1, .fitems2 {
+    border-right: 1px solid rgba(0, 0, 0, 0.097);
+}
+.fitems {
+    padding: 2rem;
+}
+.fitems img {
+    height: 35px;
 }
 
-/* Container 6 */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.fitems h4 {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 1rem 0;
+}
+.fitems p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    opacity: .5;
 }
 
 /*-- for Mobile version --*/
