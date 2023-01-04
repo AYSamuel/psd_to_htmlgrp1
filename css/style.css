@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
 .logo-Name {
   font-size: 30px;
   padding: 10px;
@@ -78,12 +79,15 @@ nav img {
   position: relative;
   cursor: pointer;
 }
+
 .hero-btn:hover {
   border: 1px solid white;
 }
+
 .text-box a:hover {
   color: white;
 }
+
 nav .fa {
   display: none;
 }
@@ -164,25 +168,31 @@ nav .fa {
   text-align: center;
   margin: 1rem 20rem;
 }
+
 .title {
   font-family: "Playfair Display", serif;
 }
+
 .title p {
   padding: 1rem 0;
 }
+
 .cont4hr {
   width: 5%;
   border: 1px solid turquoise;
 }
+
 .flexcon {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
 }
+
 .frow {
   display: flex;
   align-items: baseline;
 }
+
 /*start of container3 css*/
 .sect3 {
   background-image: url("../images/bgk-middle.png");
@@ -192,17 +202,21 @@ nav .fa {
   padding: 10.5em;
   text-align: center;
 }
+
 .frow1 {
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.097);
 }
+
 .fitems1,
 .fitems2 {
   border-right: 1px solid rgba(0, 0, 0, 0.097);
 }
+
 .fitems {
   padding: 2rem;
 }
+
 .fitems img {
   height: 35px;
 }
@@ -213,6 +227,7 @@ nav .fa {
   font-weight: bolder;
   margin: 1rem 0;
 }
+
 .fitems p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -282,6 +297,7 @@ nav .fa {
     text-align: center;
   }
 }
+
 /* container5 */
 
 .container5 h2 {
@@ -313,6 +329,7 @@ nav .fa {
   margin-top: 30px;
   column-gap: 20px;
 }
+
 .flex-Item1 {
   border: 1px solid gray;
   margin-bottom: 5%;
@@ -338,6 +355,7 @@ nav .fa {
   cursor: pointer;
   margin-bottom: 70px;
 }
+
 .btn-Container5:hover {
   border: 1px solid white;
 }
@@ -354,6 +372,7 @@ nav .fa {
     margin-left: 2%;
     margin-top: 25px;
   }
+
   .flex-row-container5 {
     flex-direction: column;
 
@@ -367,3 +386,60 @@ nav .fa {
     color: white;
   }
 }
+
+/*start of container7 css*/
+
+footer {
+  background-image: url("../images/bgk-footer.png");
+  background-size: cover;
+  padding: 5.5em;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.fcontainer {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 10px;
+  margin: 0;
+
+}
+
+#search {
+
+  height: 35px;
+  border: 1px solid #a199b4;
+  background-color: transparent;
+  text-align: center;
+
+}
+
+footer li {
+  padding: 1em;
+}
+
+footer img {
+  padding: 0.1em;
+}
+
+footer a {
+  color: rgb(44, 126, 137);
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.lastline {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+/*end of container7 css*/
