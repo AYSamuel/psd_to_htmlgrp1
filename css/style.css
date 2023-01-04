@@ -1,23 +1,21 @@
 * {
   margin: 0px;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-
-
 .logo-Name{
-  font-size: 35px;
+  font-size: 30px;
   padding: 10px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: 100;
   color: turquoise;
   text-decoration: none;
-
 }
 
 .header {
   min-height: 70vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/bgk-header.png");
+  background-image: url("../images/bgk-header.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -29,7 +27,7 @@ nav {
 }
 
 nav img {
-  width: 60px;
+  width: 50px;
 }
 
 .nav-links {
@@ -48,7 +46,6 @@ nav img {
   color: white;
   text-decoration: none;
   font-size: 13px;
-
 }
 
 .nav-links ul li a:hover {
@@ -65,10 +62,6 @@ nav img {
   text-align: center;
 }
 
-.text-box h1 {
-  font-size: 40px;
-}
-
 .text-box p {
   margin: 10px 0 40px;
   font-size: 14px;
@@ -80,63 +73,104 @@ nav img {
   text-decoration: none;
   color: turquoise;
   border: 1px solid turquoise;
-  padding: 12px 34px;
+  padding: 12px 15px;
   background: transparent;
   position: relative;
   cursor: pointer;
 }
-
 .hero-btn:hover {
   border: 1px solid white;
-
 }
-
 .text-box a:hover {
   color: white;
 }
-
-nav .fa{
+nav .fa {
   display: none;
 }
 
 
 
-.text-box hr {
-  width: 5%;
-  border-bottom: 1px solid turquoise;
-  margin-right: auto;
-  margin-left: auto;
+
+.header hr {
+  width: 3%;
+  border-bottom: 0.5px solid turquoise;
 }
 
-.container2{
-width: 55%;
-margin: auto;
-padding-top: 70px ;
-  
+.container2 {
+  width: 55%;
+  margin: auto;
+  padding-top: 70px;
+
 }
 
-.row{
+.row {
+
   display: flex;
   justify-content: space-between;
 }
 
-.flexbox-Item{
+.flexbox-Item {
   margin: 30px;
+
 }
 
-.text-box h1{
+.text-box h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 600;
+  font-family: 'Playfair Display', serif;
 }
 
-.text-box p{
+
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-weight:lighter;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.container2 h1{
+  text-align: justify;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+
+/*start of container3 css*/
+.sect3 {
+  background-image: url("../images/bgk-middle.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10.5em;
+  text-align: center;
+}
+
+.sect3 h3 {
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+.container2 h1{
+  text-align: justify;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+.container2 p{
   font-size: 15px;
   font-weight: 100;
   font-family: system-ui;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  
 }
 
+/*end of container3 css*/
 /* Container 4 */
 .container4 {
     display: flex;
@@ -163,6 +197,15 @@ padding-top: 70px ;
 .frow {
     display: flex;
     align-items: baseline;
+
+/*start of container3 css*/
+.sect3 {
+  background-image: url("../images/bgk-middle.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10.5em;
+  text-align: center;
 }
 .frow1 {
    border: 0;
@@ -190,6 +233,8 @@ padding-top: 70px ;
     opacity: .5;
 }
 
+
+
 /*-- for Mobile version --*/
 @media(max-width:700px) {
   .text-box h1 {
@@ -211,11 +256,12 @@ padding-top: 70px ;
     right: -200px;
     text-align: left;
     z-index: 2;
-    transition: 1s;;
+    transition: 1s;
+    ;
 
   }
 
-  .logo-Name{
+  .logo-Name {
     font-size: 35px;
     padding: 10px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -225,7 +271,7 @@ padding-top: 70px ;
     margin-left: 10px;
   }
 
-  nav .fa{
+  nav .fa {
     display: block;
     color: white;
     margin: 20px;
@@ -233,27 +279,32 @@ padding-top: 70px ;
     font-size: 22px;
     cursor: pointer;
   }
+
   nav img {
     width: 60px;
-  margin-left: 30px;
+    margin-left: 30px;
   }
-  .nav-links ul{
+
+  .nav-links ul {
     padding: 30px;
   }
 
-  .row{
-    
+  .row {
+
     flex-direction: column;
     flex-wrap: wrap;
-    
+
   }
-  h1{
+
+  h1 {
     text-align: center;
-    
+
   }
-  .flexbox-Item{
+
+  .flexbox-Item {
     text-align: center;
-    
+
   }
+
 
 }
