@@ -1,24 +1,24 @@
 * {
   margin: 0px;
   padding: 0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
-.logo-Name {
-  font-size: 35px;
+
+.logo-Name{
+  font-size: 30px;
   padding: 10px;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: 100;
   color: turquoise;
   text-decoration: none;
-
 }
 
 .header {
   min-height: 70vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/bgk-header.png");
+  background-image: url("/images/bgk-header.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -32,7 +32,7 @@ nav {
 }
 
 nav img {
-  width: 60px;
+  width: 50px;
 
 }
 
@@ -71,9 +71,7 @@ nav img {
   text-align: center;
 }
 
-.text-box h1 {
-  font-size: 40px;
-}
+
 
 .text-box p {
   margin: 10px 0 40px;
@@ -86,7 +84,7 @@ nav img {
   text-decoration: none;
   color: turquoise;
   border: 1px solid turquoise;
-  padding: 12px 34px;
+  padding: 12px 15px;
   background: transparent;
   position: relative;
   cursor: pointer;
@@ -108,11 +106,10 @@ nav .fa {
 
 
 
-hr {
-  width: 5%;
-  border-bottom: 1px solid turquoise;
-  margin-right: auto;
-  margin-left: auto;
+
+.header hr {
+  width: 3%;
+  border-bottom: 0.5px solid turquoise;
 }
 
 .container2 {
@@ -139,17 +136,29 @@ hr {
 
 .text-box h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 600;
+  font-family: 'Playfair Display', serif;
 
 }
 
-.text-box p {
-  font-size: 15px;
-  font-weight: 100;
-  font-family: system-ui;
-  text-align: center;
 
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-weight:lighter;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.container2 h1{
+  text-align: justify;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
 }
 
 /*start of container3 css*/
@@ -160,7 +169,6 @@ hr {
   color: white;
   padding: 10.5em;
   text-align: center;
-
 }
 
 .sect3 h3 {
@@ -169,30 +177,16 @@ hr {
 }
 
 
+.container2 p{
+  font-size: 15px;
+  font-weight: 100;
+  font-family: system-ui;
+  text-align: justify;
+}
+
 /*end of container3 css*/
 
-/* Container 4 */
-.container4 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
 
-.title {
-  font-family: playfair;
-}
-
-.title hr {
-  width: 2%;
-  border: 0;
-  border-bottom: 1px solid rgb(100, 99, 99);
-}
-
-/* Container 6 */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 /*-- for Mobile version --*/
 @media(max-width:700px) {
