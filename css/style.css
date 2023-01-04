@@ -1,12 +1,12 @@
 * {
   margin: 0px;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.logo-Name{
+.logo-Name {
   font-size: 30px;
   padding: 10px;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 100;
   color: turquoise;
   text-decoration: none;
@@ -88,9 +88,6 @@ nav .fa {
   display: none;
 }
 
-
-
-
 .header hr {
   width: 3%;
   border-bottom: 0.5px solid turquoise;
@@ -102,28 +99,23 @@ nav .fa {
   width: 55%;
   margin: auto;
   padding-top: 70px;
-
 }
 
 .row {
-
   display: flex;
   justify-content: space-between;
 }
 
 .flexbox-Item {
   margin: 30px;
-
 }
 
 .text-box h1 {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
-
 
 .text-box p {
   margin: 10px 0 40px;
@@ -131,15 +123,14 @@ nav .fa {
   font-size: 15px;
   color: white;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  
+  font-family: "Raleway", sans-serif;
 }
 
-.container2 h1{
+.container2 h1 {
   text-align: justify;
   font-size: 36px;
   font-weight: 500;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /*start of container3 css*/
@@ -157,41 +148,40 @@ nav .fa {
   padding-bottom: 1em;
 }
 
-
-.container2 p{
+.container2 p {
   font-size: 15px;
   font-weight: 100;
   font-family: system-ui;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*end of container3 css*/
 /* Container 4 */
 .container4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 1rem 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 20rem;
 }
 .title {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .title p {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 .cont4hr {
-    width: 5%;
-    border: 1px solid turquoise;
+  width: 5%;
+  border: 1px solid turquoise;
 }
 .flexcon {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
 }
 .frow {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 /*start of container3 css*/
 .sect3 {
@@ -203,43 +193,40 @@ nav .fa {
   text-align: center;
 }
 .frow1 {
-   border: 0;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.097);
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.097);
 }
-.fitems1, .fitems2 {
-    border-right: 1px solid rgba(0, 0, 0, 0.097);
+.fitems1,
+.fitems2 {
+  border-right: 1px solid rgba(0, 0, 0, 0.097);
 }
 .fitems {
-    padding: 2rem;
+  padding: 2rem;
 }
 .fitems img {
-    height: 35px;
+  height: 35px;
 }
 
 .fitems h4 {
-    font-size: .7rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    margin: 1rem 0;
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin: 1rem 0;
 }
 .fitems p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    opacity: .5;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  opacity: 0.5;
 }
 
-
-
 /*-- for Mobile version --*/
-@media(max-width:700px) {
+@media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
   }
 
   .nav-links ul li {
-
     display: block;
-
   }
 
   .nav-links {
@@ -252,14 +239,12 @@ nav .fa {
     text-align: left;
     z-index: 2;
     transition: 1s;
-    ;
-
   }
 
   .logo-Name {
     font-size: 35px;
     padding: 10px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-weight: 100;
     color: turquoise;
     text-decoration: none;
@@ -285,21 +270,100 @@ nav .fa {
   }
 
   .row {
-
     flex-direction: column;
     flex-wrap: wrap;
-
   }
 
   h1 {
     text-align: center;
-
   }
 
   .flexbox-Item {
     text-align: center;
+  }
+}
+/* container5 */
 
+.container5 h2 {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 200;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.container5 p {
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding-top: 20px;
+}
+
+.container5 hr {
+  width: 2%;
+  border-bottom: 0.5px solid Gray;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-row-container5 {
+  display: flex;
+  margin-left: 27%;
+  margin-top: 30px;
+  column-gap: 20px;
+}
+.flex-Item1 {
+  border: 1px solid gray;
+  margin-bottom: 5%;
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.flex-Item1 img {
+  width: 200px;
+  height: 250px;
+}
+
+.btn-Container5 {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: turquoise;
+  border: 1px solid turquoise;
+  padding: 12px 10px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+.btn-Container5:hover {
+  border: 1px solid white;
+}
+
+.text-box-Container5 {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .flex-row-container5 {
+    display: flex;
+
+    margin-left: 2%;
+    margin-top: 25px;
+  }
+  .flex-row-container5 {
+    flex-direction: column;
+
+    align-items: center;
   }
 
-
+  .flex-Item1 {
+    margin-bottom: 3%;
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+  }
 }
