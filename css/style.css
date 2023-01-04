@@ -5,6 +5,7 @@
 }
 
 
+
 .logo-Name{
   font-size: 30px;
   padding: 10px;
@@ -12,15 +13,12 @@
   font-weight: 100;
   color: turquoise;
   text-decoration: none;
-  
 }
 
 .header {
   min-height: 70vh;
   width: 100%;
   background-image: url("/images/bgk-header.png");
-  
-
   background-position: center;
   background-size: cover;
   position: relative;
@@ -29,8 +27,8 @@
 nav {
   display: flex;
   padding: 1.5% 15% 0 25%;
-  
-  
+
+
 }
 
 nav img {
@@ -102,49 +100,48 @@ nav img {
   color: white;
 }
 
-nav .fa{
+nav .fa {
   display: none;
 }
 
 
 
+
 .header hr {
   width: 3%;
-  
   border-bottom: 0.5px solid turquoise;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.container2{
+.container2 {
 
-width: 55%;
-margin: auto;
+  width: 55%;
+  margin: auto;
 
 
-padding-top: 70px ;
-  
+  padding-top: 70px;
+
 }
 
-.row{
-  
+.row {
+
   display: flex;
   justify-content: space-between;
 
 }
 
-.flexbox-Item{
+.flexbox-Item {
   margin: 30px;
-  
+
 }
 
-.text-box h1{
+.text-box h1 {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
   font-family: 'Playfair Display', serif;
 
 }
+
 
 
 .text-box p {
@@ -156,11 +153,27 @@ padding-top: 70px ;
   font-family: 'Raleway', sans-serif;
   
 }
+
 .container2 h1{
   text-align: justify;
   font-size: 36px;
   font-weight: 500;
   font-family: 'Playfair Display', serif;
+}
+
+/*start of container3 css*/
+.sect3 {
+  background-image: url("../images/bgk-middle.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10.5em;
+  text-align: center;
+}
+
+.sect3 h3 {
+  padding-top: 2.5em;
+  padding-bottom: 1em;
 }
 
 
@@ -170,6 +183,10 @@ padding-top: 70px ;
   font-family: system-ui;
   text-align: justify;
 }
+
+/*end of container3 css*/
+
+
 
 /*-- for Mobile version --*/
 @media(max-width:700px) {
@@ -192,11 +209,12 @@ padding-top: 70px ;
     right: -200px;
     text-align: left;
     z-index: 2;
-    transition: 1s;;
+    transition: 1s;
+    ;
 
   }
 
-  .logo-Name{
+  .logo-Name {
     font-size: 35px;
     padding: 10px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -206,7 +224,7 @@ padding-top: 70px ;
     margin-left: 10px;
   }
 
-  nav .fa{
+  nav .fa {
     display: block;
     color: white;
     margin: 20px;
@@ -214,27 +232,32 @@ padding-top: 70px ;
     font-size: 22px;
     cursor: pointer;
   }
+
   nav img {
     width: 60px;
-  margin-left: 30px;
+    margin-left: 30px;
   }
-  .nav-links ul{
+
+  .nav-links ul {
     padding: 30px;
   }
 
-  .row{
-    
+  .row {
+
     flex-direction: column;
     flex-wrap: wrap;
-    
+
   }
-  h1{
+
+  h1 {
     text-align: center;
-    
+
   }
-  .flexbox-Item{
+
+  .flexbox-Item {
     text-align: center;
-    
+
   }
+
 
 }
