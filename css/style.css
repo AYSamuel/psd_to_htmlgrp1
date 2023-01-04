@@ -155,12 +155,7 @@ nav .fa {
   padding-bottom: 1em;
 }
 
-.container2 h1{
-  text-align: justify;
-  font-size: 36px;
-  font-weight: 500;
-  font-family: 'Playfair Display', serif;
-}
+
 .container2 p{
   font-size: 15px;
   font-weight: 100;
@@ -197,7 +192,7 @@ nav .fa {
 .frow {
     display: flex;
     align-items: baseline;
-
+}
 /*start of container3 css*/
 .sect3 {
   background-image: url("../images/bgk-middle.png");
