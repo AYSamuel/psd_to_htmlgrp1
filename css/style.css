@@ -18,7 +18,7 @@
 .header {
   min-height: 70vh;
   width: 100%;
-  background-image: url("/images/bgk-header.png");
+  background-image: url("../images/bgk-header.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -27,8 +27,6 @@
 nav {
   display: flex;
   padding: 1.5% 15% 0 25%;
-
-
 }
 
 nav img {
