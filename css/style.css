@@ -94,6 +94,8 @@ nav .fa {
 .header hr {
   width: 3%;
   border-bottom: 0.5px solid turquoise;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container2 {
@@ -125,7 +127,7 @@ nav .fa {
 
 .text-box p {
   margin: 10px 0 40px;
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 15px;
   color: white;
   text-align: center;
@@ -160,9 +162,7 @@ nav .fa {
   font-size: 15px;
   font-weight: 100;
   font-family: system-ui;
-  text-align: center;
   font-family: 'Raleway', sans-serif;
-  
 }
 
 /*end of container3 css*/
