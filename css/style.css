@@ -3,9 +3,6 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
-
-
-
 .logo-Name{
   font-size: 30px;
   padding: 10px;
@@ -31,13 +28,11 @@ nav {
 
 nav img {
   width: 50px;
-
 }
 
 .nav-links {
   flex: 1;
   text-align: right;
-
 }
 
 .nav-links ul li {
@@ -51,12 +46,10 @@ nav img {
   color: white;
   text-decoration: none;
   font-size: 13px;
-
 }
 
 .nav-links ul li a:hover {
   color: turquoise;
-
 }
 
 .text-box {
@@ -68,8 +61,6 @@ nav img {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
 
 .text-box p {
   margin: 10px 0 40px;
@@ -86,18 +77,13 @@ nav img {
   background: transparent;
   position: relative;
   cursor: pointer;
-
 }
-
 .hero-btn:hover {
   border: 1px solid white;
-
 }
-
 .text-box a:hover {
   color: white;
 }
-
 nav .fa {
   display: none;
 }
@@ -108,14 +94,13 @@ nav .fa {
 .header hr {
   width: 3%;
   border-bottom: 0.5px solid turquoise;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container2 {
-
   width: 55%;
   margin: auto;
-
-
   padding-top: 70px;
 
 }
@@ -124,7 +109,6 @@ nav .fa {
 
   display: flex;
   justify-content: space-between;
-
 }
 
 .flexbox-Item {
@@ -137,14 +121,13 @@ nav .fa {
   font-size: 48px;
   font-weight: 600;
   font-family: 'Playfair Display', serif;
-
 }
 
 
 
 .text-box p {
   margin: 10px 0 40px;
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 15px;
   color: white;
   text-align: center;
@@ -179,10 +162,71 @@ nav .fa {
   font-size: 15px;
   font-weight: 100;
   font-family: system-ui;
-  text-align: justify;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*end of container3 css*/
+/* Container 4 */
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 20rem;
+}
+.title {
+    font-family: 'Playfair Display', serif;
+}
+.title p {
+    padding: 1rem 0;
+}
+.cont4hr {
+    width: 5%;
+    border: 1px solid turquoise;
+}
+.flexcon {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.frow {
+    display: flex;
+    align-items: baseline;
+}
+/*start of container3 css*/
+.sect3 {
+  background-image: url("../images/bgk-middle.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 10.5em;
+  text-align: center;
+}
+.frow1 {
+   border: 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.097);
+}
+.fitems1, .fitems2 {
+    border-right: 1px solid rgba(0, 0, 0, 0.097);
+}
+.fitems {
+    padding: 2rem;
+}
+.fitems img {
+    height: 35px;
+}
+
+.fitems h4 {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 1rem 0;
+}
+.fitems p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    opacity: .5;
+}
 
 
 
