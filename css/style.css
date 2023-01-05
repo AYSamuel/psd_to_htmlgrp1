@@ -236,17 +236,19 @@ nav .fa {
   font-size: 15px;
   opacity: 0.5;
 }
+
 /* ------container6------*/
 .container6 {
   padding: 3rem;
 }
-.grid-container6{
-display: grid;
-grid-template-columns: 1fr 1fr;
- margin-left: 22%;
+
+.grid-container6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 22%;
 }
 
-.grid-Container6-1{
+.grid-Container6-1 {
   margin-top: 8px;
   display: grid;
   grid-template-columns: 100px 100px;
@@ -254,7 +256,8 @@ grid-template-columns: 1fr 1fr;
   row-gap: 30px;
 }
 
-input[type=text], select {
+input[type=text],
+select {
   width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -263,7 +266,9 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=email], select {
+
+input[type=email],
+select {
   width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -272,6 +277,7 @@ input[type=email], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 textarea {
   width: 80%;
   height: 150px;
@@ -283,7 +289,8 @@ textarea {
   display: inline-block;
 }
 
-input[type=submit], select {
+input[type=submit],
+select {
   display: inline-block;
   text-decoration: none;
   color: turquoise;
@@ -295,9 +302,10 @@ input[type=submit], select {
   margin-top: 10px;
 }
 
-input:hover{
+input:hover {
   color: black;
 }
+
 /* container5 */
 
 .container5 h2 {
@@ -364,12 +372,13 @@ input:hover{
   color: white;
   text-align: center;
 }
+
 /*start of container7 css*/
 
 footer {
   background-image: url("../images/bgk-footer.png");
   background-size: cover;
-  padding: 5.5em;
+  padding: 3.5em;
   color: white;
 }
 
@@ -380,33 +389,57 @@ footer ul {
 .fcontainer {
   display: flex;
   justify-content: space-around;
-
   padding: 10px;
   margin: 0;
-
 }
 
-#search {
-
-  height: 35px;
-  border: 1px solid #a199b4;
+input[type=text] {
   background-color: transparent;
-  text-align: center;
+}
+
+.li_submit {
+  display: flex;
+}
+
+.tajam a {
+  display: flex;
+  align-items: center;
+  font-size: 2.2em;
+  ;
 
 }
+
+
 
 footer li {
   padding: 1em;
 }
 
-footer img {
-  padding: 0.1em;
+footer button {
+  background-color: #ffffff90;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 0.43rem;
+  padding-bottom: 0.23rem;
+  margin: auto;
+  border: none;
 }
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
 
 footer a {
   color: rgb(44, 126, 137);
   text-decoration: none;
   font-size: 21px;
+}
+
+/* space icons*/
+footer img {
+  padding: 0.1em;
 }
 
 .lastline {
@@ -508,4 +541,3 @@ h4 {
     color: white;
   }
 }
-
