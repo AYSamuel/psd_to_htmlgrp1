@@ -102,7 +102,8 @@ nav .fa {
 .container2 {
   width: 55%;
   margin: auto;
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .row {
@@ -166,7 +167,7 @@ nav .fa {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 1rem 20rem;
+  margin: 5rem 20rem;
 }
 
 .title {
@@ -179,13 +180,15 @@ nav .fa {
 
 .cont4hr {
   width: 5%;
-  border: 1px solid turquoise;
+  border: 0;
+  border-bottom: 1px solid turquoise;
 }
 
 .flexcon {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
+  margin-bottom: 0;
 }
 
 .frow {
@@ -244,18 +247,15 @@ grid-template-columns: 1fr 1fr;
 }
 
 .grid-Container6-1{
-
-  margin-top: 35px;
+  margin-top: 8px;
   display: grid;
   grid-template-columns: 100px 100px;
-
   column-gap: 90px;
   row-gap: 30px;
-
 }
 
 input[type=text], select {
-  width: 50%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -264,7 +264,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 input[type=email], select {
-  width: 50%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -273,7 +273,7 @@ input[type=email], select {
   box-sizing: border-box;
 }
 textarea {
-  width: 50%;
+  width: 80%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -293,7 +293,6 @@ input[type=submit], select {
   position: relative;
   cursor: pointer;
   margin-top: 10px;
-
 }
 
 input:hover{
@@ -326,7 +325,7 @@ input:hover{
 
 .flex-row-container5 {
   display: flex;
-  margin-left: 27%;
+  margin-left: 21.5%;
   margin-top: 30px;
   column-gap: 20px;
 }
