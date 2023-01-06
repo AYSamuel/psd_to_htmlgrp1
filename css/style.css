@@ -256,7 +256,7 @@ nav .fa {
   row-gap: 30px;
 }
 
-input[type=text],
+input[type="text"],
 select {
   width: 80%;
   padding: 12px 20px;
@@ -267,7 +267,7 @@ select {
   box-sizing: border-box;
 }
 
-input[type=email],
+input[type="email"],
 select {
   width: 80%;
   padding: 12px 20px;
@@ -289,7 +289,7 @@ textarea {
   display: inline-block;
 }
 
-input[type=submit],
+input[type="submit"],
 select {
   display: inline-block;
   text-decoration: none;
@@ -393,7 +393,7 @@ footer ul {
   margin: 0;
 }
 
-input[type=text] {
+input[type="text"] {
   background-color: transparent;
 }
 
@@ -405,11 +405,7 @@ input[type=text] {
   display: flex;
   align-items: center;
   font-size: 2.2em;
-  ;
-
 }
-
-
 
 footer li {
   padding: 1em;
@@ -425,11 +421,10 @@ footer button {
   border: none;
 }
 
-::placeholder {
+footer ::placeholder {
   color: white;
   opacity: 1;
 }
-
 
 footer a {
   color: rgb(44, 126, 137);
@@ -509,7 +504,7 @@ h4 {
     flex-wrap: wrap;
   }
 
-  h1 {
+  .flexbox-Item h1 {
     text-align: center;
   }
 
@@ -517,8 +512,6 @@ h4 {
     text-align: center;
   }
 }
-
-
 
 @media (max-width: 700px) {
   .flex-row-container5 {
